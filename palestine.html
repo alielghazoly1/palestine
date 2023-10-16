@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>palstine</title>
+  </head>
+  <body>
+    <div class="palestine">
+      <div class="palstine-word"> Palestine</div>
+
+      <div class="trans">
+        <div class="inputs">
+          <textarea
+            placeholder="ضع نص"
+            onkeyup="perrs()"
+            class="text1"
+            id="text1"
+          ></textarea>
+          <div class="text2" id="text2"></div>
+        </div>
+        <div class="butanddel">
+          <button class="copy" id="copy" onclick="copytaxt()">نسخ</button>
+          <button class="delete" id="delete"  onclick="dellete()">حذف</button>
+        </div>
+      </div>
+    </div>
+    <script src="js.js"></script>
+  </body>
+</html>

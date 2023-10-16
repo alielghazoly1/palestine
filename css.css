@@ -1,0 +1,68 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+body{
+    direction: rtl;
+    background-image: url(/879772-zlsomfhdhl-1526906900.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 900px;
+}
+.palstine-word{
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    font-size: 50px;
+    color: green;
+}
+.inputs{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+
+}
+.text1{
+    resize: none;
+    width: 300px;
+    padding: 5px;
+    border: none;
+    outline: none;
+    height: 200px;
+    background-color:  rgba(255, 255, 255, 0.753);
+    font-size: 20px;
+    border-top: 3px solid green;
+    border-bottom: 3px solid green;
+    border-radius: 5px;
+}
+.text1::placeholder{
+    color: green;
+}
+.text2{
+    width: 300px;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.719);
+    font-size: 20px;
+    border-radius: 5px;
+    border-top: 3px solid green;
+    border-bottom: 3px solid green;
+}
+.butanddel{
+margin-top: 40px;
+ display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+ gap: 20px;
+}
+.copy, .delete{
+    background-color: green;
+    color: white;
+    font-weight: 900;
+    padding: 7px 40px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
